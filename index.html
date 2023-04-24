@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" style="color: white">My Portfolio</a></li>
+            <li><a href="page1.html">Hobbies</a></li>
+        </ul>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:100px">Kasey Kalka</h1>
+            <p>Aspiring Full Stack Developer</p>
+        </div>
+    </div>
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1>Get to know me!</h1>
+                <p>As you can see above, my name is Kasey! I have a diverse range of interests including food, videogames, sports, traveling, nature, and learning new things. Check out my other pages to take deeper look into what I specifically like about all of those topics. 
+                    I'm very excited to get back into the world of software development. I began my software development journey at Illinois State University where I studied computer science.
+                    I've always been into technology and computers but I never knew what software development would really be like. Having the chance to study computer science really opened my eyes to what kind of work and commitement it takes to succeed in this field. </p>
+            </article>
+            <article class="main-articles">
+                <h1>Why I'm Here</h1>
+                <figure>
+                    <img src="images/hardwork.jpg" alt="Hardwork">
+                </figure>
+                <p>As I stated before I've always been into technology. Whether that is using a new program, learning new technologies, building computers, playing videogames, buying and using new devices, etc etc etc. That is what initally drove me
+                    to learn how to code. I figured software development was a great way to turn my passion for technology into a job. Growing up I always heard people say, <em>Do what you love and you'll never work a day in you life,</em> so here I am! I love that coding gives me a new oppurtunity everyday
+                    to learn something new. I started out learning object oriented languages but after completeing my internship I realized web development is <em>currently</em> my favorite part of this field. I say currently because I know that will change often throughout my software development journey 
+                    I prefer front end development because it gives me the oppurtunity to see my changes as I make them and helps visually demonstrate how creative I can be.
+                </p>
+            </article>
+            <article class="main-articles">
+                <h1>Background</h1>
+                <p>I studied Computer Science at Illinois State University. During my time there I learned Java, C++, HTML, and CSS. Going into my fourth year of school I had the oppurtunity to intern at Dualtemp Clauger, a refrigeration company in Chicago. 
+                    That is where I had my first experiences with web development. My courses in college mostly consisted of object oriented back end languages but my internship required me to learn front end too. At my internship I developed a fullstack web application for the sales team that made managing their projects more streamlined and efficient. 
+                    I unfortunately never got to finish college. Covid hit and I struggled to keep up with my classes so I decided it was best to put that on hold until I knew I was ready to complete my degree. I am currently an IT Support Technician working at a small company based in Naperville called ArchiTechture where I install and manage software and hardware for multiple law firms in Chicago. </p>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+                <img id="profile-image" src="images/me.jpg" alt="Picture of Kasey">
+                <div class="profile-details">
+                    <h2>Kasey Kalka</h2>
+                    <ul>
+                        <li>1303 Ivy Lane Apt 103</li>
+                        <li>Naperville, IL 60563</li>
+                        <li>(708) 701-3561</li>
+                        <li><a href="mailto:kaseykalka@gmailcom">kaseykalka@gmail.com</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="side-articles">
+                <h1>Do we share any hobbies?</h1>
+                    <strong><small>Check the boxes below and hit submit to let me know what hobbies we share!</small></strong>
+                    <form>
+                        <input type="checkbox">
+                        <label for="hobbie1">Sports</label><br>
+                        <input type="checkbox">
+                        <label for="hobbie2"> Videogames</label><br>
+                        <input type="checkbox">
+                        <label for="hobbie3">Cooking</label><br>
+                        <input type="checkbox">
+                        <label for="hobbie4">None</label><br>
+                        <input type="submit" value="Submit">
+                    </form>
+            </article>
+            <article class="side-articles">
+                <h1>What About You?</h1>
+                <strong><small>Enough about me! Tell me something about yourself!</small></strong>
+                <br>
+                <form action="mailto:kaseykalka@gmail.com" method="POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea id="body" placeholder="Something about you" rows="5"></textarea>\
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            &copy Kasey Kalka 2023
+        </div>
+    </footer>
+
+</body>
+</html>
